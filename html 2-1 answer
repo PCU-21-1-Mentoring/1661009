@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="김우진">
+    <meta name="team" content="Mento_Mentii_WebProgramming">
+    <title>table example</title>
+  </head>
+  <body>
+    <table border="1">
+      <tr>
+        <th colspan="5">테이블</th>
+      </tr>
+      <tr>
+        <td>a</td>
+        <td>b</td>
+        <td>c</td>
+        <td>d</td>
+        <td>e</td>
+      </tr>
+      <tr>
+        <td>f</td>
+        <td>g</td>
+        <td>h</td>
+        <td>i</td>
+        <td>j</td>
+      </tr>
+      <tr>
+        <td>k</td>
+        <td>l</td>
+        <td>m</td>
+        <td>n</td>
+        <td>o</td>
+      </tr>
+    </table>
+  </body>
+</html>
