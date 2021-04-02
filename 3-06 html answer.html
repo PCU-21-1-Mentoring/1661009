@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>3-06 html</title>
+    <style>
+      section + ul{
+        color: white;
+        background: pink;
+      }
+      p:nth-of-type(2n){
+        background:green;
+      }
+      p:nth-of-type(2n+1){
+        background:gray;
+      }
+      p:first-child{
+        font-size:20px;
+        color:white;
+      }
+      p:last-of-type{
+        font-size:20px;
+        color:white;
+      }
+      section > article > header{
+        background: yellow;
+        color: gray;
+      }
+      h2, h3{
+        background : black;
+        color:white;
+      }
+    </style>
+  </head>
+  <body>
+    <p>구조적 가상 클래스 선택자</p>
+    <p>구조적 가상 클래스 선택자</p>
+    <p>구조적 가상 클래스 선택자</p>
+    <p>구조적 가상 클래스 선택자</p>
+    <p>구조적 가상 클래스 선택자</p>
+    <p>구조적 가상 클래스 선택자</p>
+    <section><article><header>자손선택자</header></article></section>
+    <ul>
+      <li>인접 형제 선택자와 자손 선택자 이중 사용</li>
+      <li>인접 형제 선택자</li>
+      <li>인접 형제 선택자</li>
+    </ul>
+    <h2>h2 그룹 선택자</h2>
+    <h3>그룹 선택자</h3>
+  </body>
+</html>
