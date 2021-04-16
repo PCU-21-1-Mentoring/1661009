@@ -1,0 +1,36 @@
+html{
+  width:100%;
+  height: 100%;
+}
+body{
+  width:100%;
+  height: 100%;
+  background: aliceblue;
+}
+ul{
+  border: 1px dotted black;
+  color: blue;
+}
+a{
+  text-decoration: none;
+}
+#head1{
+  font-family: "휴먼편지체";
+  color: brown;
+}
+p{
+  font-family: "휴먼편지체";
+  font-size: 1em;
+  text-indent: 1em;
+}
+h2{
+  color: blue;
+  text-shadow: 1px 1px;
+  font-family: "휴먼편지체";
+}
+img{
+  width:50%;
+}
+footer{
+  background: orange;
+  border-radius: 5px;
